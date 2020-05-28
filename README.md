@@ -42,7 +42,7 @@
 ## `weReadTip` 组件属性
 
 |属性名 | 类型 | 默认值 | 说明 |
-|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 | show | Boolean | false | 是否显示提示UI |
 | closeOnTap | Boolean | true | 是否点击后自动隐藏UI |
 | title | String | 顶部标题\n需要两行 | 顶部标题 |
@@ -50,6 +50,10 @@
 | features | Array | ['功能1','功能2'] | 功能介绍文字列表 |
 | bottomText | String | 立即下载·在客服会话中回复1 | 底部按钮提示文字 |
 | themeColor | String | #67C23A | 整体弹出层主题颜色 |
+
+## 客服消息自动回复神器
+
+基础版（免费）：https://s.w7.cc/module-25655.html
 
 ## 预览效果
 
