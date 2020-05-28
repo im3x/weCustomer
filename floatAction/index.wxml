@@ -1,0 +1,9 @@
+<!-- 右下角浮动客服按钮 -->
+<button
+  open-type="contact"
+  class="float-btn"
+  size="mini"
+  style="right: {{ right }}px;bottom:{{ bottom }}px;"
+  hover-class="hover-class">
+	<image src="{{ icon }}"></image>
+</button>

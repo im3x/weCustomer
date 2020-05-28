@@ -1,0 +1,19 @@
+<!-- 模仿微信读书引导下载App提示界面 -->
+
+
+<view wx:if="{{ show }}" class="shadow" bindtap="toggle">
+	<view class="shadow-box" id="feature" style="background-color:{{ themeColor }}">
+		<view class="shadow-top">
+			<text class="feature_title">{{ title }}</text>
+			<view style="width:90px;height:1px;background-color:rgba(255,255,255,0.5);margin:20px 0;"></view>
+			
+			<view class="feature_list" wx:for="{{ features }}">
+				<image src="{{ listIcon }}"></image>
+				<text>{{ item }}</text>
+			</view>
+		</view>
+		<button open-type="contact" class="shadow-bottom">
+			<text style="color:{{ themeColor }}">{{ bottomTxt }}</text>
+		</button>
+	</view>
+</view>

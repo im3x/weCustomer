@@ -1,0 +1,31 @@
+
+button {
+	padding: 0 !important;
+	line-height: 0 !important;
+	text-align: left;
+}
+button:not([size='mini']) {
+	width: 100% !important;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.float-btn {
+	width: 50px !important;
+	height: 50px !important;
+	background-color:#FFF;
+	border: 1px solid rgb(254, 240, 240);
+	box-shadow: 0 5px 10px -5px rgb(253, 226, 226);
+	position: fixed;
+	right: 20px;
+	bottom: 100px;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+}
+.float-btn > image {
+	width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
